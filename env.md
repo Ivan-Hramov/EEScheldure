@@ -1,4 +1,6 @@
 File .env includes:
 
 TELEGRAM_TOKEN=&lt;BOT TOKEN&gt;<br />
-CHAT_LOGS=&lt;ID OF CHAT FOR LOGS&gt;
+CHAT_LOGS=&lt;ID OF CHAT FOR LOGS&gt;<br />
+API_EMOJI=&lt;EMOJI API TOKEN&gt;<br />
+API_WORDS_SESID=&lt;WORDS PHPSESSION TOKEN&gt;
