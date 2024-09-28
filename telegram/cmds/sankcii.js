@@ -5,7 +5,10 @@ module.exports = {
     args: true,
     func: async (bot, msg, args) => {
         if (msg.from.id !== 1130069986) {
-            bot.sendMessage(msg.chat.id, `Вам недоступна данная команда!`);
+            bot.sendMessage(msg.chat.id, `Вам недоступна данная команда!`, {
+                reply_to_message_id: msg.message_id
+            });
+            return;
         }
 
         bot.getChatMember(msg.chat.id, args[0])
