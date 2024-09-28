@@ -6,7 +6,9 @@ Telegrammi bot — EEScheldure. Põhifunktsiooniks on kooli tunniplaani saamine 
 <p>/rasp — Koolitundide ajakava saatmine kasutajale mugavas formaadis valitud kuupäevavahemiku jooksul.<br /><em>Sündmused: events/rasp.js</em></p>
 <p>/санкции — Kasutaja võimaluse blokeerimine saata mis tahes meediumifaile tema ID alusel.<br /><em>Sündmused: events/blocks.js</em></p>
 <p>/chatid — Vestluse ID hankimine ja selle saatmine vestlusesse, kust käsk anti.</p>
-<p>/route — Marsruudi planeerimine pildiformaadis, kasutades süsteemi peatus.ee.<br /><em>Sündmused: events/route.js</em></p>
+<p>/tech — Muutke boti tehnilise töö režiimi.</p>
+<p>/words — Sõnamäng, kus üks kasutaja peab selgitama boti poolt talle määratud sõna ja teised peavad selgituse põhjal sõna ära arvama.<br /><em>Sündmused: events/words_btn.js events/words_msg.js</em></p>
+<p>/stopwords — Kohustatud täitma kõik sõnamängud.</p>
 
 <h3>Lisafunktsioonid</h3>
 <p>Logija - Kõigi käskude kasutamise logimine eraldi vestlusesse.</p>
