@@ -1,3 +1,5 @@
+# So, now it doesnt work and has been rewritten for private access
+
 <h1>EEScheldure</h1>
 Telegrammi bot — EEScheldure. Põhifunktsiooniks on kooli tunniplaani saamine veebilehelt tahvel.edu.ee ja selle saatmine kasutajale sobival kujul valitud kuupäevavahemiku kohta. Mugav käskude ja sündmuste süsteem boti realiseerimiseks.
 <br /><br />
